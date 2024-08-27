@@ -1,0 +1,71 @@
+* {
+    margin-bottom: 2px;
+    padding: 0;
+    font-family:  "Quicksand", sans-serif;
+}
+main {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #002855;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #c0c0c0;
+    
+}
+h2, span {
+    color: #ef476f;
+}
+
+#cubic-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+}
+p {
+    font-size: 17px;
+}
+.container, .row1, .row2{
+    display: flex;
+}
+.container {
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.row1, .row2 {
+    gap: 6px;
+}
+#icon-clock {
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+}
+#icon-ethereum {
+    width: 10px;
+    height: 16px;
+    margin: 0;
+    margin-top: 14px;
+}
+hr {
+    margin-bottom: 8px;
+}
+footer {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
+}
+#profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 4px;
+}
+.row1 p {
+    color: #72ddf7;
+}
+footer p, .row1 p, .row2 p {
+    font-size: 14px;
+    font-weight: bold;
+}
